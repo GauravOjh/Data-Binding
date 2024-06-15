@@ -1,0 +1,18 @@
+<div class="container">
+    <h1>Data Binding</h1>
+
+    <div class="sub-container">
+        <h2 class="space">{{stringInterpolation}} : </h2>
+
+        <h2 class="space">Input Binding : </h2>
+        <input type="text" [(ngModel)]="Submitted" (input)="onAdd()">
+
+        <div>
+            {{Submitted}}
+        </div>
+
+        <h2 class="space">Event and Property Binding : </h2>
+
+        <button [disabled]="isDisabledBtn" (click)="CheckValue()" >Check Value</button>
+    </div>
+</div>

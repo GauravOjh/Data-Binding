@@ -1,0 +1,13 @@
+.container{
+    position: relative;
+}
+
+
+.sub-container{
+    position: absolute;
+    left: 5rem;
+}
+
+.space{
+    padding: 16px 10px;
+}
